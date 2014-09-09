@@ -1,0 +1,40 @@
+body {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+	background: white;
+  width: 230px;
+}
+
+input {
+	margin: auto;
+	margin-left: 15px;
+	width: 200px;
+	text-align: center;
+}
+
+div:first-child {
+  margin-top: 4px;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+	cursor: pointer;
+  padding: 1px 3px;
+  font-family: comic sans ms;
+  font-size: 1.1em;
+  width: 200px;
+  margin-top: 1px;
+	color: blue;
+}
+
+div:hover {
+	background: #eeeeee;
+}
+
+.checked {
+	text-decoration: line-through;
+	width: 200px;
+	opacity: 0.5;
+}

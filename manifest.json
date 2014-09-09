@@ -1,0 +1,20 @@
+{
+	"name": "Simple List",
+	"description": "A simple list that syncs across devices",
+	"version": "0.1",
+	"permissions": [
+		"storage"
+	],
+	"browser_action": {
+		"name": "Check your list",
+		"default_title": "Simple List",
+		"default_icon": "icon128.png",
+		"default_popup": "popup.html"
+	},
+	"icons": { 
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png" 
+	},
+	"manifest_version": 2
+}
