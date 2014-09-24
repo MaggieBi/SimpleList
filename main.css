@@ -1,9 +1,11 @@
 body {
-  overflow: hidden;
-  margin: 0px;
-  padding: 0px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
 	background: white;
-  width: 230px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+	width: 230px;
 }
 
 input {
@@ -14,18 +16,17 @@ input {
 }
 
 div:first-child {
-  margin-top: 4px;
+	margin-top: 4px;
 }
 
 div {
-  margin: auto;
-  text-align: center;
+	margin: auto;
+	text-align: center;
 	cursor: pointer;
-  padding: 1px 3px;
-  font-family: comic sans ms;
-  font-size: 1.1em;
-  width: 200px;
-  margin-top: 1px;
+	padding: 1px 3px;
+	font-size: 1.1em;
+	width: 200px;
+	margin-top: 1px;
 	color: blue;
 }
 

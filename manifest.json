@@ -1,7 +1,7 @@
 {
 	"name": "Simple List",
 	"description": "A simple list that syncs across devices",
-	"version": "0.1",
+	"version": "0.3",
 	"permissions": [
 		"storage"
 	],
