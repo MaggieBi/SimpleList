@@ -88,7 +88,7 @@ chrome.storage.local.get("list", function(o) {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    console.log("Popup.js called!");
+    //console.log("Popup.js called!");
     chrome.storage.sync.get("list", function(o) {
         if (o.list == undefined) {
             list = [];
@@ -99,10 +99,23 @@ document.addEventListener('DOMContentLoaded', function () {
         updateDom();
     });
 
-    document.getElementById("input").onkeydown = function(e) {
+    document.getElementById('input').onkeydown = function(e) {
         if (e.keyCode == 13) {
-            addItem(document.getElementById("input").value);    
-            document.getElementById("input").value = "";
+            
+            addItem(document.getElementById('input').value.capitalize());    
+            document.getElementById('input').value = '';
         }
+    }
+
+    document.getElementById('clear').onclick = function(b) {
+        list = [];
+        loaded = true;
+        updateDom();
     }    
 });
+
+
+
+String.prototype.capitalize = function(){
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}

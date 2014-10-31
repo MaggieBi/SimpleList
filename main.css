@@ -1,31 +1,31 @@
 body {
 	overflow: hidden;
 	margin: 0px;
-	padding: 0px;
+	padding: 10px;
 	background: white;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-	width: 230px;
+	width: 310px;
 }
 
 input {
-	margin: auto;
-	margin-left: 15px;
-	width: 200px;
+	margin-top: 5px;
+	width: 300px;
 	text-align: center;
+	font-size: 15px;
 }
 
 div:first-child {
-	margin-top: 4px;
+	margin-top: 10px;
 }
 
 div {
 	margin: auto;
 	text-align: center;
 	cursor: pointer;
-	padding: 1px 3px;
-	font-size: 1.1em;
-	width: 200px;
+	padding: 5px;
+	font-size: 15px;
+	width: 300px;
 	margin-top: 1px;
 	color: blue;
 }
